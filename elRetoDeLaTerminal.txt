@@ -54,4 +54,5 @@ para que elimine todo los archivos de dentor sin eliminar el directorio en si, c
  save and close the text editor.
  *** entonces dentro utilice la tecla suprimir para eliminar pirmer linea luego Crtl+o para guardar y crtl+x para salir
 
- 15-*** Sorry por tanto texto pero usted pidio que explicará lo que hace cada comando.... nos vemos clase xD...
+ 15-*** Sorry por tanto texto y por las faltas de ortografía, pero usted pidio que explicará lo que hace cada comando.... nos vemos en clases xD...
+    
