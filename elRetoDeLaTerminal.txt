@@ -1,0 +1,57 @@
+Desafios:
+1-  Get inside the thecmdchallenge/ directory....
+* Primero tenemos que saber donde estamos (pwd) imprimimos la ruta del directorio en que estamos,
+ luego para movernos utilizamos ( cd thecmdchallenge)...
+
+2- List all the files from the current directory including the hidden ones...
+* para enlistar los archivos del directorio actual utilizamos ( ls ) pero si queremos que tambien muestre tdos los archivos incluidos 
+los ocultos (ls -a)
+
+3- Now list all the files inside the project, recursively (all files in the hierarchy)
+** primero tenemos q ir al directoria raiz que nos quedamos en otra carpeta... cd ../ (en mi caso solo una carpeta)
+tenemos dos opciones 1- (ls -R) 2- ( find . -type f ) este ultimo da una salida mas elegante te dice dónde están todos
+ los archivos de la jerarquía sin mostrar carpetas.
+
+ 4- Clear all the clutter from the command line...
+ Esto al profesor le encata borro 100k/veces utilizo ( clear )...no se me olviada jamas
+
+ 5-Go to the last level below the small-name folder and show on the console the content of the filetrophy.txt  
+***** para este ejercico tuve que repertirlo varias veces porque no recordaba si en clases lo hicimos asi ...   lo primero
+ que hice fue buscar donde estaba el archivo trophy.txt utilice (find . -name trophy.txt )
+este comando buscador me da la direccion donde estaba el archivo y luego lo mostre con (cat +tabulador o copiar y pegar) 
+asi copie toda la direccion, tabulador es muy util en la terminal para el autocompletado y la paguina q paso Sergio 
+tiene comandos buena biblioteca ...
+
+6- Move one level up and get to the funcode directory and list all files with the JavaScript typical extension
+*** para movernos cd ../ atras, luego cd funcode una ves dentro ls *js
+
+7-Create a new directory inside called “not-that-funny“funcode/the-most-funny/
+*** para este ejercicios utilizamos ( mkdir ) para crear nuevo directorio  la direccion     ./the-most-funny/   <!--- aqui el nuevo directorio ---> not-that-funny
+
+8-Create a copy of the-mostboring-text.txt (you can find it within ‘s children) and name it lol.txt/boringfolder/
+* primero fui busque donde estaba ese archivo (find . -name the-mostboring-text.txt) luego con cd me movi hasta la direccion del archivo.txt y de alli crea la copia utilizando
+cp ./myfirstcopy.txt seguido la direccion donde quiero la copia con el nuevo nombre ...
+
+9-Move funcode/kids.jpg inside funcode/images/hello/
+** para mover utilizamos ( mv ) damos direccion de archivo que queremos copiar ./funcode/kids.jpg y despues de espacio direccion de destino ./funcode/images/
+
+10-Remove the “small-name“ directory
+** para remover se utiliza (rm) en este caso es un directorio (rm -r) rm -r ./small-name/
+
+11-Print in the command line the content of the-ultimate-joke.txt
+** par imprimir este archivo primero fui a su directorio porque no me dejo impirmirlo directamente "cat: the-ultimate-joke.txt: No such file or directory" 
+por lo tanto busque donde estaba find . -name "the-ultimate-joke.txt" y luego lo impirmi utilizando cat ./the-ultimate-joke.txt
+
+12- Remove all the contents from the boringfolder, they are extremely boring…
+** para remover (rm) pero como es un directory con muchos archivos pues utilize (rm -r ./boringfolder/*) el /* muy importante 
+para que elimine todo los archivos de dentor sin eliminar el directorio en si, como me sucedio a mi que tuve que crearlo de nuevo 
+ mkdir boringfolder...xd
+
+13-Open the file using the VI command line text editorkamehameha/dragon-ball-jokes.md
+*** en clase dijimos k utilizariamos nano...kamehameha/dragon-ball-jokes.md
+
+14-Update the file kamehameha/dragon-ball-jokes.md by removing the first joke you read on the file, finally
+ save and close the text editor.
+ *** entonces dentro utilice la tecla suprimir para eliminar pirmer linea luego Crtl+o para guardar y crtl+x para salir
+
+ 15-*** Sorry por tanto texto pero usted pidio que explicará lo que hace cada comando.... nos vemos clase xD...
